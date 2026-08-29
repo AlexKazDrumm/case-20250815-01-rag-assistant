@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+.env
+.venv/
+rag.db
+.idea
+
+# OS
+.DS_Store
+
+# Caches
+.cache/
+
+# Local secrets and portfolio identity
+.env
+.env.*
+!.env.example
+!.env.*.example
+LOCAL_ORIGIN.txt
+
+# Local development artifacts
+.idea/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
